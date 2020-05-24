@@ -1,18 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
+
 .App {
   text-align: center;
+  font-family: 'Oleo Script', cursive;
+  color:#212121
 }
-
+p,a,h1,h2,h3,h4,h5,h6, span, li, div{
+  color:#212121 !important;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.containewithZin{
+  position: relative;
+  z-index: 1;
+  top: 30vh;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+@media only screen and (max-width: 600px) {
+  .JumbHM{
+    background-size: cover !important;
+    background-position-x: -194px;
+  }
+}
+.withShadow{
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+height: 317.2px;
+}
+.withShadow1{
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+hr{
+  border:1px solid#EEFF41 !important;
+  margin: 4% 0px !important;
+}
+.section3Container{
+  height: 50vh;
+background-image: url("./assests/person-holding-sunglasses-in-front-of-beach-1379247.jpg");
+background-repeat: no-repeat;
+background-position-y: 50%;
+background-size: 100%;
+}
+.navbar {
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+.section6Container{
+  height: 50vh;
+background-image: url("./assests/a-woman-posing-with-hand-under-her-chin-2887718.jpg");
+background-repeat: no-repeat;
+background-position-y: top;
+background-size: 100%;
+}
+.buttonSite{
+  background: #EEFF41 !important;
+  border: 0px !important;
+}
+.section3Container:after {
+  content: "";
+opacity: 0.4;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+position: relative;
+z-index: 3;
+background: white;
+height: 50vh;
+display: block;
+}
+.section5Container{
+  height: 50vh;
+background-image: url("./assests/two-eyewear-on-white-surface-1499477.jpg");
+background-repeat: no-repeat;
+background-position-y: 50%;
+background-size: 100%;
+}
+.section5Container:after {
+  content: "";
+opacity: 0.4;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+position: relative;
+z-index: 3;
+background: white;
+height: 50vh;
+display: block;
+}
+.Jbutton{
+  width: 50% !important;
+  background: #EEFF41 !important;
+  border: 0px !important;
+  border-radius: 50px !important;
+}
+.JumbB{
+  height: 50vh;
+  background-image:url("./assests/sunglasses-sunset-summer-sand-46710.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.JumbB:after {
+  content: "";
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 0;   
+  background:white;
+}
+.JumbP{
+  height: 50vh;
+  background-image:url("./assests/close-up-of-rayban-sunglasses-249210.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.JumbP:after {
+  content: "";
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 0;   
+  background:white;
+}
+.JumbHM{
+  height: 100vh;
+  background-image:url("./assests/woman-in-red-and-white-floral-dress-wearing-brown-sun-hat-3968185.jpg");
+  background-size: 130%;
+  background-repeat: no-repeat;
+}
+.JumbHM:after {
+  content: "";
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 0;   
+  background:white;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -21,11 +167,10 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #212121;
 }
 
 @keyframes App-logo-spin {
